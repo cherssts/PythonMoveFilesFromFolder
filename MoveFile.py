@@ -16,7 +16,7 @@ def main():
     # Input the souce directory and check if is valid or not
     # Check if the directory is correct.
     while True:
-        source_path = input("From(please enter a valid directory): ")  # 目标路径
+        source_path = input("From(please enter a valid directory): ")  # target directory
         if os.path.isdir(source_path):
             print("Valid directory!" + "\n")
             break
@@ -41,7 +41,7 @@ def main():
 
 
 def move_files_from_folder(src_path: str, dest_path: str):
-    folder_list = os.listdir(src_path)  # 扫描目标路径的文件,将文件名存入列表
+    folder_list = os.listdir(src_path)  # Scan folders in the source directory
     is_folder_list = []  # create a list to store the folder names
 
     # look for folders
