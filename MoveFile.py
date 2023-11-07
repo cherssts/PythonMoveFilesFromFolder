@@ -1,14 +1,6 @@
 import os
 import shutil
 
-"""
-+--------------------------------------------------------
-|                   <<  Credits >>
-|            python批量移动文件&重命名代码分享
-|   https://cloud.tencent.com/developer/article/1679388
-+--------------------------------------------------------
-"""
-
 
 def main():
     source_path = ""
